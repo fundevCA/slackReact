@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true, // import * as React from 'react' (remove * as)
+    "sourceMap": true, // Able to find the original error spot
+    "lib": ["ES2020", "DOM"], // Recent syntax
+    "jsx": "react", // our project = react
+    "module": "esnext", // Use recent module system
+    "moduleResolution": "Node",
+    "target": "es5", // Convert to es5
+    "strict": true, // strict type checking
+    "resolveJsonModule": true, // Allow import Json
+    "baseUrl": ".",
+    "paths": {
+      // import A from ../../../../hello.js => @src/hello.js
+      "@hooks/*": ["hooks/*"],
+      "@components/*": ["components/*"],
+      "@layouts/*": ["layouts/*"],
+      "@pages/*": ["pages/*"],
+      "@utils/*": ["utils/*"],
+      "@typings/*": ["typings/*"]
+    }
+  }
+}

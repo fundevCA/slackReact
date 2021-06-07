@@ -1,7 +1,7 @@
 {
   "name": "alecture",
   "version": "1.0.0",
-  "description": "",
+  "description": "Clone Slack with React",
   "main": "index.js",
   "scripts": {
     "dev": "cross-env TS_NODE_PROJECT=\"tsconfig-for-webpack-config.json\" webpack serve --env development",
@@ -71,5 +71,17 @@
     "prettier": "^2.2.1",
     "webpack": "^5.22.0",
     "webpack-dev-server": "^3.11.2"
-  }
+  },
+  "repository": {},
+  "keywords": [
+    "slack",
+    "react",
+    "clone",
+    "frontend",
+    "backend"
+  ],
+  "bugs": {
+    "url": "https://github.com/fundevCA/slackReact/issues"
+  },
+  "homepage": "https://github.com/fundevCA/slackReact#readme"
 }
